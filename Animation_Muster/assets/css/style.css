@@ -1,0 +1,97 @@
+body{
+    background: black;
+    margin: 0;
+}
+
+.typo{
+    color: white;
+    font-size: 200px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    padding: 0;
+}
+.typo-Big{
+    font-size: 100px;
+}
+
+.div1, .div2{
+    height: 20vh;
+    background-color: black;
+}
+
+.div3{
+    height: 25vh;
+    background-color: white;
+}
+
+.div4{
+    height: 50vh;
+    background-color: white;  
+}
+
+.div5{
+    height: 100vh;
+    background-color: white;
+}
+
+.typo3{
+    color: black;
+    font-size: 200px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    padding: 0;
+    background-color: white;
+}
+
+.typo2{
+    color: black;
+    font-size: 200px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    padding: 0;
+    z-index: 2;
+    background-color: white;
+}
+
+.rect{
+    width: 1630px;
+    height: 80px;
+    background-color: white;
+    border-radius: 0px 50px 50px 0px;
+    color: black;
+    font-size: 50px;
+    text-align: end;
+    font-family: 'Anton', sans-serif;
+}
+
+.circle{
+    width: 900px;
+    height: 900px;
+    background: black;
+    border-radius: 900px;
+    z-index: 1;
+    float: right; 
+    display: flex; 
+    width: 49%;
+
+}
+.circle2{
+    width: 900px;
+    height: 900px;
+    background: black;
+    border-radius: 900px;
+    z-index: 1;
+    float: left; 
+    display: flex; 
+    width: 49%;
+}
+
+svg{
+    background-color: red 10;
+
+}
+
+.div6{
+    height: 100vh;
+    background-color: red;
+}
