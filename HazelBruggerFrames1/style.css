@@ -1,0 +1,231 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+  }
+  
+  @font-face{
+  font-family: "impact";
+  src: url(fonts/impact.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face{
+  font-family: "comicsans";
+  src: url(fonts/comic-sans-ms-bold_[allfont.de].ttf);
+  font-style: bold;
+  font-weight: 400;
+}
+.div1{
+background-color: black;
+height: 100vh;
+
+}
+
+.KastenRot1{
+  position: relative;
+height: 30%;
+width: 50%;
+background-color: red;
+left: 25%;
+}
+
+.eingefleischt{
+  font-family: impact;
+  font-weight: 100;
+  font-size: 6em;
+text-align: center;
+  color: white;
+  z-index: 1;
+}
+.Veganer{
+  color: red;
+}
+
+#panel{
+  position: relative;
+text-align: center;
+font-weight: 100;
+font-size: 111%;
+bottom: 36%;
+left: 5%;
+  transition: opacity 1s 0.3s;
+  transform: scale(0.9);
+  transform-origin: top left;
+  z-index: 2;
+}
+
+
+.KastenRot2{
+  position: relative;
+height: 33%;
+width: 50%;
+background-color: red;
+left: 25%;
+bottom: 60vh;
+}
+.Text1{
+  position: relative;
+  bottom: 32vw;
+  font-family: comicsans;
+  font-weight: 100;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+}
+.Text2{
+  position: relative;
+  font-family: comicsans;
+  font-weight: 400;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+}
+
+.div2{
+    background-color: black;
+    height: 100vh;
+}
+
+.Nation{
+  position: relative;
+  font-family: impact;
+  font-weight: 100;
+  font-size: 8em;
+text-align: center;
+padding-top: 22vh;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+
+.Text3{
+  position: relative;
+  font-family: comicsans;
+  top: 8vw;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+.Text4{
+  position: relative;
+  font-family: comicsans;
+  text-align: center;
+  bottom: -5vw;
+  font-weight: 400;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+.div3 {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+.Mannequin{
+  font-family: impact;
+  font-weight: 400;
+  font-size: 8em;
+  position: relative;
+  text-align: center;
+  top: 24vh;
+color: red;
+z-index:2;
+}
+.Sexappeal{
+  color: rgb(255, 255, 255);
+
+}
+.div3_2{
+position: relative;
+height: 60vh;
+top: -8vh;
+background-color: red;
+z-index: 1;
+}
+
+.div4 {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+.Strich1{
+  position: relative;
+  height: 1vh;
+  width: 65vw;
+  top: 20%;
+  background-color: black;
+}
+.Strich2{
+  position: relative;
+  height: 3vh;
+  width: 90vw;
+  top: 23%;
+  background-color: black;
+}
+
+.Text5{
+  position: relative;
+  font-family: comicsans;
+  top: 16vw;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+}
+
+.Flach{
+  font-family: impact;
+  font-size: 4em;
+}
+.Gesiezt{
+  font-family: impact;
+  font-size: 4em;
+}
+.Strich3{
+  position: relative;
+  height: 1vh;
+  top: 45%;
+  right: -32%;
+  background-color: black;
+}
+.Strich4{
+  position: relative;
+  height: 3vh;
+  width: 90vw;
+  top: 38%;
+  right: -10%;
+  background-color: black;
+}
+
+.div5{
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+}
+.Text6{
+  position: relative;
+  font-family: comicsans;
+  top: 16vw;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+.Text7{
+  position: relative;
+  font-family: comicsans;
+  top: 17vw;
+  text-align: center;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.Kuhfrauen{
+  font-family: 'Great Vibes', cursive;
+  position: relative;
+  text-align: center;
+  font-size: 3em ;
+  top: 34%;
+  font-size: 10em;
+  color: white;
+}
