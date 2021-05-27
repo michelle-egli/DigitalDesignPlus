@@ -1,0 +1,192 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+  }
+  
+  @font-face{
+  font-family: "impact";
+  src: url(fonts/impact.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face{
+  font-family: "comicsans";
+  src: url(fonts/comic-sans-ms-bold_[allfont.de].ttf);
+  font-style: bold;
+  font-weight: 400;
+}
+.screen4{
+background-color: black;
+height: 100vh;
+}
+
+.KastenRot1{
+  position: relative;
+height: 30%;
+width: 50%;
+background-color: red;
+left: 25%;
+}
+
+.eingefleischt{
+  font-family: impact;
+  font-weight: 100;
+  font-size: 6em;
+text-align: center;
+  color: white;
+}
+
+.Veganer{
+  color: red;
+}
+#hide{
+  opacity: 1;
+  transition: 0.3 all ease-in;
+} 
+#hide>div{
+opacity: 0;
+}
+/* #hide= Text visible machen oder nicht via JS */
+.Metzger{
+  position: relative;
+  bottom: 32vw;
+  font-family: comicsans;
+  font-weight: 100;
+  text-align: center;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  z-index: 2;
+}
+
+
+.vorbeischauen{
+  position: relative;
+  font-family: comicsans;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  z-index: 2;
+}
+html *{
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+.KastenRot2{
+position: relative;
+height: 33%;
+width: 50%;
+background-color: red;
+left: 25%;
+bottom: 18vh;
+transform-origin: top;
+transform: scaleY(1);
+transition: 1s;
+transition-delay: 0s;
+}
+
+.screen5{
+  background-color: black;
+  height: 100vh;
+  }
+
+  .Nation{
+    position: relative;
+    font-family: impact;
+    font-weight: 100;
+    font-size: 8em;
+  text-align: center;
+  padding-top: 22vh;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    transform: scale(0);
+  }
+  .Nation.active{
+    transform: scale(2);
+  }
+  .Roger{
+    position: relative;
+    font-family: comicsans;
+    top: -24vw;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+  }
+  .Stelle{
+    position: relative;
+    font-family: comicsans;
+    text-align: center;
+    bottom: -2vw;
+    font-weight: 400;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+  }
+  #hide2{
+    opacity: 1;
+    transition: 0.3 all ease-in;
+  } 
+  #hide2>div{
+  opacity: 0;
+  }
+  .screen6{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    }
+    .Hungerhaken{
+      font-family: comicsans;
+      position: relative;
+      font-size: 2em;
+      text-align: center;
+      color: red;
+      top: -31vh;
+    }
+    .Mannequin{
+      font-family: impact;
+      font-weight: 400;
+      font-size: 8em;
+      position: relative;
+      text-align: center;
+      top: 29vh;
+    color: red;
+    z-index:2;
+    }
+    
+    .zynisch{
+      font-family: comicsans;
+      position: relative;
+      font-size: 2em;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      top: 13vh;
+      z-index: 2;
+    }
+    
+    .Sexappeal{
+      color: rgb(255, 255, 255);
+    }
+    
+    .screen6_2{
+    position: relative;
+    height: 55vh;
+    top: -12vh;
+    background-color: red;
+    z-index: 1;
+    transform: scaleY(0);
+  }
+  .screen6_2.active{
+    transform: scaleY(2);
+    }
+
+    #hide3{
+      opacity: 1;
+      transition: 0.3 all ease-in;
+    } 
+    #hide3>div{
+opacity: 0;
+    }
