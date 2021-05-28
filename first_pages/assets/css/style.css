@@ -55,6 +55,14 @@ body {
     height: 100vh;
 }
 
+.titel{
+    transform: -2000;
+}
+
+.titel.active{
+    transform: 0;
+}
+
 .opel{
     position: absolute;
     padding-top: 5%;
