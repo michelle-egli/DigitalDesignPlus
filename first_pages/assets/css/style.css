@@ -13,16 +13,41 @@ body {
     font-weight: 100;
 }
 
-/*
-    fonts: 
+/*  fonts: 
         font-family: impact;
         font-family: 'Gloria Hallelujah', cursive;   
         font-family: 'Great Vibes', cursive;
-*/
+        */
 
 
 /*--------------------------------------------screen 1: Penis-----------------------------------------------*/
+.screen1{
+    height: 100vh;
+    background-color: black;
+}
 
+.typo{
+    color: white;
+    font-size: 180px;
+    text-align: left;
+    font-family: impact;
+    padding-left: 3%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    position: relative;
+}
+
+.rect{
+    width: 1630px;
+    height: 80px;
+    background-color: white;
+    border-radius: 0px 50px 50px 0px;
+    color: black;
+    font-size: 50px;
+    text-align: end;
+    padding: 0.5%;
+    font-family: 'Gloria Hallelujah', cursive;
+}
 
 /*--------------------------------------------screen 2: big fat fuck-----------------------------------------------*/
 .screen2{
@@ -33,10 +58,10 @@ body {
 .opel{
     position: absolute;
     padding-top: 5%;
-    padding-left: 5%;
+    padding-left: 10%;
     text-align: right;
     font-family: 'Gloria Hallelujah', cursive;    
-    font-size: 2.85em;
+    font-size: 1.7em;
     color: #CB0000;
 }
 .ha{
@@ -69,23 +94,292 @@ body {
 
 
 /*--------------------------------------------screen 3: menstrutation-----------------------------------------------*/
+.screen3{
+    background-color: black;
+    height: 100vh;
+}
 
+.politik{
+    position: absolute;
+    padding-top: 20%;
+    padding-left: 25%;
+    text-align: right;
+    font-family: 'Gloria Hallelujah', cursive;    
+    font-size: 2em;
+    color: white;
+}
+
+.menstrutation{
+    position: relative;
+    padding-top: 20%;
+    padding-left: 10%;
+    text-align: center;
+    font-family: 'Great Vibes', cursive; 
+    font-size: 4em;
+    color: red;
+}
+
+.bisschen{
+    position: relative;
+    text-align: right;
+    padding-right: 28%;
+    top: -7%;
+    font-family: 'Gloria Hallelujah', cursive;    
+    font-size: 2em;
+    color: white;
+}
+
+.zukunft{
+    position: relative;
+    text-align: center;
+    top: -8%;
+    font-family: 'Gloria Hallelujah', cursive;    
+    font-size: 2em;
+    color: white;
+}
 
 /*--------------------------------------------screen 4: veganer-----------------------------------------------------*/
+.screen4{
+    background-color: black;
+    height: 100vh;
+} 
 
+.KastenRot1{
+    position: relative;
+    height: 30%;
+    width: 50%;
+    background-color: red;
+    left: 25%;
+}   
+
+.eingefleischt{
+    font-family: impact;
+    font-weight: 100;
+    font-size: 6em;
+    text-align: center;
+    color: white;
+}   
+
+.Veganer{
+    color: red;
+}
+
+#hide{
+    opacity: 1;
+    transition: 0.3 all ease-in;
+} 
+
+#hide>div{
+    opacity: 0;
+}
+/* #hide= Text visible machen oder nicht via JS */
+
+.Metzger{
+    position: relative;
+    bottom: 32vw;
+    font-family: 'Gloria Hallelujah', cursive;   
+    font-weight: 100;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+}
+
+.vorbeischauen{
+    position: relative;
+    font-family: 'Gloria Hallelujah', cursive;   
+    text-align: center;
+    font-weight: 400;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+}
+
+html *{
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+.KastenRot2{
+    position: relative;
+    height: 33%;
+    width: 50%;
+    background-color: red;
+    left: 25%;
+    bottom: 18vh;
+    transform-origin: top;
+    transform: scaleY(1);
+    transition: 1s;
+    transition-delay: 0s;
+}
 
 /*--------------------------------------------screen 5: hoden-------------------------------------------------------*/
+.screen5{
+    background-color: black;
+    height: 100vh;
+}
+  
+.Nation{
+    position: relative;
+    font-family: impact;
+    font-weight: 100;
+    font-size: 8em;
+    text-align: center;
+    padding-top: 22vh;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    transform: scale(0);
+}
 
+.Nation.active{
+    transform: scale(2);
+}
+
+.Roger{
+    position: relative;
+    font-family: 'Gloria Hallelujah', cursive;   
+    top: -24vw;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+    
+.Stelle{
+    position: relative;
+    font-family: 'Gloria Hallelujah', cursive;   
+    text-align: center;
+    bottom: -2vw;
+    font-weight: 400;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+    
+#hide2{
+    opacity: 1;
+    transition: 0.3 all ease-in;
+} 
+    
+#hide2>div{
+    opacity: 0;
+}
 
 /*--------------------------------------------screen 6: mannequin---------------------------------------------------*/
+.screen6{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
 
+.Hungerhaken{
+    font-family: 'Gloria Hallelujah', cursive;   
+    position: relative;
+    font-size: 2em;
+    text-align: center;
+    color: red;
+    top: -31vh;
+}
+    
+.Mannequin{
+    font-family: impact;
+    font-weight: 400;
+    font-size: 8em;
+    position: relative;
+    text-align: center;
+    top: 29vh;
+    color: red;
+    z-index:2;
+}
+    
+.zynisch{
+    font-family: 'Gloria Hallelujah', cursive;   
+    position: relative;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    top: 13vh;
+    z-index: 2;
+}
+    
+.Sexappeal{
+    color: rgb(255, 255, 255);
+}
+    
+.screen6_2{
+    position: relative;
+    height: 55vh;
+    top: -12vh;
+    background-color: red;
+    z-index: 1;
+    transform: scaleY(0);
+}
+
+.screen6_2.active{
+    transform: scaleY(2);
+}
+
+#hide3{
+    opacity: 1;
+    transition: 0.3 all ease-in;
+} 
+
+#hide3>div{
+    opacity: 0;
+}
 
 /*--------------------------------------------screen 7: nippelsaft--------------------------------------------------*/
+.screen7{
+    background-color: black;
+    height: 100vh;
+}
+.muttermilch{
+    padding-top: 10%;
+    padding-left: 3%;
+    text-align: left;
+    font-family: 'Gloria Hallelujah', cursive;    
+    font-size: 2em;
+    color: white;
+}
 
+.nippelsaft{
+    padding: 10%;
+    text-align: center;
+    font-family: 'Great Vibes', cursive; 
+    font-size: 9em;
+    color: white;
+}
+
+.menschenfrauen{
+    text-align: right;
+    padding-right: 3%;
+    font-family: 'Gloria Hallelujah', cursive;    
+    font-size: 2em;
+    color: white;
+}
 
 /*--------------------------------------------screen 8: flachbrüstigkeit-----------------------------------------------*/
+.screen8{
+    background-color: white;
+    height: 100vh;
+}
 
+.wartesaal{
+    padding-top: 12%;
+    position: relative;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2.5em;
+    color: black;
+}
 
+.flachbrüstigkeit{
+    position: relative;
+    text-align: center;
+    font-family: impact;
+    font-size: 11em;
+    color: black;
+}
 /*--------------------------------------------screen 9: rosinengesicht-----------------------------------------------*/
 .screen9{
     background-color: black;
@@ -95,7 +389,7 @@ body {
 
 .vorhaut{
     position: relative;
-    top: 30%;
+    top: 20%;
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 2.5em;
@@ -103,7 +397,7 @@ body {
 }
 .rosinengesicht{
     position: relative;
-    top: 33%;
+    top: 22%;
     text-align: center;
     font-family: impact;
     font-size: 11em;
@@ -111,7 +405,7 @@ body {
 }
 .dieter{
     position: relative;
-    top: 36%;
+    top: 26%;
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 2.5em;
@@ -124,7 +418,20 @@ body {
     left: 0;
 }
 
+/* position der rosinen*/
 .rosine1{
+    transform: translate(160px ,160px);
+}
+.rosine2{
+    transform: translate(185px ,60px);
+}
+.rosine3{
+    transform: translate(100px ,200px);
+}
+.rosine4{
+    transform: translate(100px ,200px);
+}
+.rosine5{
     transform: translate(100px ,200px);
 }
 
@@ -162,11 +469,33 @@ svg{
 .zeitverlust{
     position: relative;
     text-align: right;
-    bottom: 90%;
     padding-right: 10%;
+    top: 8%;
     font-family: impact;
     font-size: 12em;
     color: white;
 }
 
 /*--------------------------------------------screen 11: end screen (buch empfehlung)-----------------------------------------------*/
+.screen11{
+    background-color: white;
+    height: 100vh;
+}
+
+.buch{
+    padding-top: 15%;
+    position: relative;
+    text-align: right;
+    padding-right: 10%;
+    font-family: impact;
+    font-size: 12em;
+    color: black;
+}
+
+.hazel{
+    position: relative;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 5em;
+    color: black;
+}
