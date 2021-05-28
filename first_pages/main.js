@@ -12,7 +12,6 @@ const tl1 = gsap.timeline({
         scrub: 1,  
     }
 })
-
 tl1.to(".rect", {x: -600, duration: 2});
 
 ScrollTrigger.create({
@@ -26,44 +25,14 @@ ScrollTrigger.create({
 });
 
 /*-----------------------------------------------animation screen 2: big fat fuck-------------------------------------------------------------*/
-/*const tl2 = gsap.timeline({
-    scrollTrigger: {
-        trigger: ".screen2",
-        markers: true,
-        start: "top 42%",
-        end: "top 35%",
-        scrub: 1,  
-    }
-})
-
-tl2.to(".titel", {x: 2000, duration: 2});
-
-
-/*
-tl2.to(".titel", {
-    transform: translateX(-2000),
-    ease: "none",
-    duration: 1,
-});*/
-
-/*
-ScrollTrigger.create({
-    animation:tl2,
-    trigger: ".screen2",
-    start: "top top",
-    end:"+=1200",
-    scrub: 2,
-    toggleClass: 'active',
-    pin: true,
-    anticipatePin: 1,
-});*/
-
 const tl2 = gsap.timeline();
 
-tl5.to(".titel",{
+tl2.to(".titel",{
     ease: "none",
     duration: 1,
+    x: 0,
  });
+ 
  ScrollTrigger.create({
    animation:tl2,
    trigger: ".screen2",
@@ -77,7 +46,28 @@ tl5.to(".titel",{
  });
 
 /*-----------------------------------------------animation screen 3: menstrutation-------------------------------------------------------------*/
+const tl3 = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".screen3",
+        markers: true,
+        start: "top 42%",
+        end: "top 35%",
+        scrub: 1,  
+    }
+})
 
+//tl3.to(".titel", {x: 1000, duration: 2});
+
+ScrollTrigger.create({
+    animation:tl3,
+    trigger: ".screen3",
+    start: "top" ,
+    end:"+=1200",
+    scrub: 2,
+    markers:true,
+    pin: true,
+    anticipatePin: 1
+  });
 
 /*-----------------------------------------------animation screen 4: veganer-------------------------------------------------------------*/
 const tl4 = gsap.timeline();
@@ -152,21 +142,138 @@ ScrollTrigger.create({
     toggleClass: 'active',
     markers:true,
     pin: true,
-    anticipatePin: 1
+    anticipatePin: 1,
 });
 
 /*-----------------------------------------------animation screen 7: nippelsaft-------------------------------------------------------------*/
+const tl7 = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".screen7",
+        markers: true,
+        start: "top 42%",
+        end: "top 35%",
+        scrub: 1,  
+    }
+})
 
+//tl3.to(".titel", {x: 1000, duration: 2});
+
+ScrollTrigger.create({
+    animation:tl7,
+    trigger: ".screen7",
+    start: "top" ,
+    end:"+=1200",
+    scrub: 2,
+    markers:true,
+    pin: true,
+    anticipatePin: 1
+  });
 
 /*-----------------------------------------------animation screen 8: flachbrüstigkeit-------------------------------------------------------------*/
+const tl8 = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".screen8",
+        markers: true,
+        start: "top 42%",
+        end: "top 35%",
+        scrub: 1,  
+    }
+})
 
+//tl3.to(".titel", {x: 1000, duration: 2});
+
+ScrollTrigger.create({
+    animation:tl8,
+    trigger: ".screen8",
+    start: "top" ,
+    end:"+=1200",
+    scrub: 2,
+    markers:true,
+    pin: true,
+    anticipatePin: 1
+  });
 
 /*-----------------------------------------------animation screen 9: rosinengesicht-------------------------------------------------------------*/
+const tl9 = gsap.timeline();
 
+// let rosinen = document.querySelector(".rosinen");
+// rosinen.forEach(function(rosine) {
+//     ScrollTrigger.create({
+//         animation: {
+//             scale: 5,
+//             ease: "none",
+//             duration: 1},
+//         trigger: ".screen:",
+//         target: rosine,
+//         start: "top" ,
+//         end:"+=1200",
+//         scrub: 2,
+//         markers:true,
+//         pin: true,
+//         anticipatePin: 1,
+//     });
+// })
+tl9.to(".rosine",{
+    scale: 5,
+    ease: "none",
+    duration: 1,
+});
+ScrollTrigger.create({
+    animation: tl9,
+    trigger: ".screen9",
+    start: "top" ,
+    end:"+=1200",
+    scrub: 2,
+    markers:true,
+    pin: true,
+    anticipatePin: 1,
+});
 
 /*-----------------------------------------------animation screen 10: zeitverlust-------------------------------------------------------------*/
+const tl10 = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".screen10",
+        markers: true,
+        start: "top 42%",
+        end: "top 35%",
+        scrub: 1,  
+    }
+})
 
+//tl3.to(".titel", {x: 1000, duration: 2});
+
+ScrollTrigger.create({
+    animation:tl10,
+    trigger: ".screen10",
+    start: "top" ,
+    end:"+=1200",
+    scrub: 2,
+    markers:true,
+    pin: true,
+    anticipatePin: 1
+  });
 
 /*-----------------------------------------------animation screen 11: end screen (buch empfehlung)-------------------------------------------------------------*/
+const tl11 = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".screen11",
+        markers: true,
+        start: "top 42%",
+        end: "top 35%",
+        scrub: 1,  
+    }
+})
 
+//tl3.to(".titel", {x: 1000, duration: 2});
+
+ScrollTrigger.create({
+    animation:tl11,
+    trigger: ".screen11",
+    start: "top" ,
+    end:"+=1200",
+    scrub: 2,
+    markers:true,
+    pin: true,
+    anticipatePin: 1
+  });
 
