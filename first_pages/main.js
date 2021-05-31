@@ -32,7 +32,7 @@ tl2.to(".titel",{
     duration: 1,
     x: 0,
  });
- 
+
  ScrollTrigger.create({
    animation:tl2,
    trigger: ".screen2",
@@ -170,24 +170,22 @@ ScrollTrigger.create({
   });
 
 /*-----------------------------------------------animation screen 8: flachbrüstigkeit-------------------------------------------------------------*/
-const tl8 = gsap.timeline({
-    scrollTrigger: {
-        trigger: ".screen8",
-        markers: true,
-        start: "top 42%",
-        end: "top 35%",
-        scrub: 1,  
-    }
-})
+const tl8 = gsap.timeline({})
 
-//tl3.to(".titel", {x: 1000, duration: 2});
+tl8.to(".balken1", {x: -2000, duration: 1})
+    .to(".balken2", {x: 2000, duration: 1})
+    .to(".balken3", {x: -2000, duration: 1})
+    .to(".balken4", {x: 2000, duration: 1})
+    .to(".balken5", {x: -2000, duration: 1})
+    .to(".balken6", {x: 2000, duration: 1})
+    .to(".balken7", {x: -2000, duration: 1});
 
 ScrollTrigger.create({
     animation:tl8,
     trigger: ".screen8",
     start: "top" ,
     end:"+=1200",
-    scrub: 2,
+    scrub: 0.5,
     markers:true,
     pin: true,
     anticipatePin: 1
@@ -196,27 +194,10 @@ ScrollTrigger.create({
 /*-----------------------------------------------animation screen 9: rosinengesicht-------------------------------------------------------------*/
 const tl9 = gsap.timeline();
 
-// let rosinen = document.querySelector(".rosinen");
-// rosinen.forEach(function(rosine) {
-//     ScrollTrigger.create({
-//         animation: {
-//             scale: 5,
-//             ease: "none",
-//             duration: 1},
-//         trigger: ".screen:",
-//         target: rosine,
-//         start: "top" ,
-//         end:"+=1200",
-//         scrub: 2,
-//         markers:true,
-//         pin: true,
-//         anticipatePin: 1,
-//     });
-// })
 tl9.to(".rosine",{
-    scale: 5,
+    scale: 30,
     ease: "none",
-    duration: 1,
+    duration: 3,
 });
 ScrollTrigger.create({
     animation: tl9,
@@ -230,50 +211,60 @@ ScrollTrigger.create({
 });
 
 /*-----------------------------------------------animation screen 10: zeitverlust-------------------------------------------------------------*/
-const tl10 = gsap.timeline({
-    scrollTrigger: {
-        trigger: ".screen10",
-        markers: true,
-        start: "top 42%",
-        end: "top 35%",
-        scrub: 1,  
-    }
-})
+const tl10 = gsap.timeline();
 
-//tl3.to(".titel", {x: 1000, duration: 2});
+tl10.to(".titelScreen10",{
+    ease: "none",
+    duration: 1,
+    y: 0,
+ });
 
-ScrollTrigger.create({
-    animation:tl10,
-    trigger: ".screen10",
-    start: "top" ,
-    end:"+=1200",
-    scrub: 2,
-    markers:true,
-    pin: true,
-    anticipatePin: 1
-  });
+ ScrollTrigger.create({
+   animation:tl10,
+   trigger: ".screen10",
+   start: "top",
+   end:"+=1200",
+   scrub: 2,
+   toggleClass: 'active',
+   markers:true,
+   pin: true,
+   anticipatePin: 1,
+ });
 
-/*-----------------------------------------------animation screen 11: end screen (buch empfehlung)-------------------------------------------------------------*/
-const tl11 = gsap.timeline({
-    scrollTrigger: {
-        trigger: ".screen11",
-        markers: true,
-        start: "top 42%",
-        end: "top 35%",
-        scrub: 1,  
-    }
-})
+/*-----------------------------------------------animation screen 11: buch titel-------------------------------------------------------------*/
+const tl11 = gsap.timeline({})
 
-//tl3.to(".titel", {x: 1000, duration: 2});
+tl11.to(".papiertüte", {x: 2000, duration: 1});
+
 
 ScrollTrigger.create({
     animation:tl11,
     trigger: ".screen11",
     start: "top" ,
     end:"+=1200",
-    scrub: 2,
+    scrub: 0.5,
     markers:true,
     pin: true,
     anticipatePin: 1
   });
 
+/*-----------------------------------------------animation screen 12: papiertüten-smile-------------------------------------------------------------*/
+const tl12 = gsap.timeline({})
+
+tl12.to(".smile",{
+    ease: "none",
+    duration: 3,
+    rotate: 360,
+ });
+
+ScrollTrigger.create({
+    animation:tl12,
+    trigger: ".screen12",
+    start: "top" ,
+    end:"+=1200",
+    scrub: 2,
+    toggleClass: 'active',
+    markers:true,
+    pin: true,
+    anticipatePin: 1
+  });
