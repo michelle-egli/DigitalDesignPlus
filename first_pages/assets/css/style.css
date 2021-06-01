@@ -118,9 +118,9 @@ body {
     transform: translate(0px,0px);
 }
 
-.titel.active2{
+/*.titel.active2{
     transform: translate(2000px,0px);
-} 
+} */
 
 .blacksquare{
     transform: translate(-10000px, 0px);
@@ -139,8 +139,9 @@ body {
 
 .opel{
     position: relative;
-    left: 9vw;
-    top: 8vw;
+    left: -82vw;
+    top: 10vh;
+    text-align: right; 
     font-family: 'Gloria Hallelujah', cursive;    
     font-size: 1.7em;
     color: #CB0000;
@@ -149,7 +150,7 @@ body {
 .ha{
     position: relative;
     left: -12vw;
-    top: -33vh;
+    top: -36vh;
     text-align: center;
     font-family: impact;
     font-size: 28em;
@@ -189,57 +190,63 @@ body {
     background-color: black;
     height: 100vh;
 }
-
+.TextMens{
+    position: relative;
+    top: 27vh;
+    z-index: 1;
+}
 .politik{
-    position: absolute;
-    padding-top: 20%;
-    padding-left: 25%;
-    text-align: right;
+    position: relative;
+    top: -7vh;
+    left: 24vw;
     font-family: 'Gloria Hallelujah', cursive;    
     font-size: 2em;
     color: white;
+    z-index: 1;
 }
 
 .menstrutation{
     position: relative;
-    padding-top: 20%;
-    padding-left: 10%;
-    text-align: center;
+    left: 47vw;
+    top: 27vh;
     font-family: 'Great Vibes', cursive; 
     font-size: 4em;
     color: #CB0000;
+    z-index: 2;
 }
 
 .bisschen{
     position: relative;
-    text-align: right;
-    padding-right: 28%;
-    top: -7%;
+    top: -13.8vh;
+    left: 67vw;
     font-family: 'Gloria Hallelujah', cursive;    
     font-size: 2em;
     color: white;
+    z-index: 1;
 }
 
 .zukunft{
     position: relative;
     text-align: center;
-    top: -8%;
+    top: -15vh;
     font-family: 'Gloria Hallelujah', cursive;    
     font-size: 2em;
     color: white;
+    z-index: 1;
 }
 
 .tear {
     transform: rotate(-30deg);
     position: relative;
-    top: -6vh;
-    left: 60.2vw;
-    border: 5px solid rgb(255, 0, 0);
+    top: -5vh;
+    left: 62.1vw;
+    border: 5px solid #CB0000;
     width: 0vw;
     height: 0vh;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+    z-index: 3;
 }
 
 .tear.active{
@@ -248,11 +255,11 @@ body {
 }
 
 .Mensblut{
-    fill: #ff0000;
+    fill: #CB0000; /*Farbe falsch?!*/
     position: relative;
     width: 99vw;
     top: 40%;
-    z-index: 2;
+    z-index: 3; 
 }
 
 .Mensblut.active{
@@ -314,7 +321,7 @@ body {
 
 .Metzger{
     position: relative;
-    bottom: 32vw;
+    top: -64vh;
     font-family: 'Gloria Hallelujah', cursive;   
     font-weight: 100;
     text-align: center;
@@ -366,7 +373,7 @@ html *{
     text-align: center;
     padding-top: 22vh;
     color: black;
-    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    -webkit-text-stroke: 2px white;
     transform: scale(0);
 }
 
@@ -389,7 +396,7 @@ html *{
     position: relative;
     font-family: 'Gloria Hallelujah', cursive;   
     text-align: center;
-    bottom: -2vw;
+    top: 20vh;
     font-weight: 400;
     font-size: 2em;
     color: white;
@@ -466,7 +473,7 @@ html *{
     transform: scaleY(2);
 }
 .screen6_2.active2{
-    transform: translateY(-100);
+    transform: translateY(-110);
 }
 
 #hide6{
@@ -484,11 +491,9 @@ html *{
     height: 100vh;
 }
 .muttermilch{
-    padding-top: 10%;
-    padding-left: 3%;
     text-align: left;
     position: relative;
-    bottom: 37vh;
+    bottom: 30vh;
     left: 8vw;
     font-family: 'Gloria Hallelujah', cursive;    
     font-size: 2em;
@@ -502,18 +507,17 @@ html *{
     position: relative;
     font-family: 'Great Vibes', cursive; 
     font-size: 9em;
-    top: 40vh;
+    top: 30vh;
     color: white;
     z-index: 3;
 }
 
 .menschenfrauen{
     text-align: right;
-    padding-right: 3%;
     position: relative;
     font-family: 'Gloria Hallelujah', cursive;    
     font-size: 2em;
-    top: 29vh;
+    top: 10vh;
     right: 12vw;
     color: white;
     z-index: 3;
@@ -528,13 +532,13 @@ html *{
     z-index: 2;
 }
 .Milch{
- width: 50vw;
+    width: 50vw;
     height: 50vh;
     position: relative;
-    top: -106vh;
+    top: -100vh;
     left: -1vw;
     z-index: 2;
- transform: scale(1); 
+    transform: scale(1); 
 }
 .Milch.active{
     transform: scale(2);
@@ -543,11 +547,11 @@ html *{
     width: 60vw;
     height: 50vh;
     position: relative;
-    top: -160vh;
+    top: -140vh;
     left: 47vw;
     z-index: 2;
- transform: scale(1); 
- transform:translateX(0)
+    transform: scale(1); 
+    transform:translateX(0)
 }
 .Milch2.active{
     transform: scale(1.5);
@@ -683,6 +687,7 @@ html *{
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 2.5em;
     color: white;
+    z-index: 2;
 }
 .rosinengesicht{
     position: relative;
@@ -691,6 +696,7 @@ html *{
     font-family: impact;
     font-size: 11em;
     color: white;
+    z-index: 2;
 }
 .dieter{
     position: relative;
@@ -699,6 +705,7 @@ html *{
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 2.5em;
     color: white;
+    z-index: 2;
 }
 
 #hide9{
@@ -716,6 +723,7 @@ html *{
     left: 0;
     width: 100vw;
     height: 100vh;
+    z-index: 1;
 }
 
 .rosine {

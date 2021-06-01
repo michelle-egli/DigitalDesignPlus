@@ -175,7 +175,7 @@ tl3_2.to(".tear",{
   tl3_3.to(".Mensblut",{
       ease: "none",
       duration: 1,
-      y: -1100,
+      y: -550,
    });
    
    ScrollTrigger.create({
@@ -200,9 +200,9 @@ tl4_2.to(".KastenRot1",{
   ScrollTrigger.create({
       animation:tl4_2,
       trigger: ".screen4",
-      start: "top top",
+      start: "top",
       end:"+=1200",
-      scrub: 2,
+      scrub: 1,
       // pin: true,
       // anticipatePin: 1,
   });
@@ -218,9 +218,9 @@ tl4.to(".KastenRot2",{
   ScrollTrigger.create({
       animation:tl4,
       trigger: ".screen4",
-      start: "top top",
+      start: "top",
       end:"+=1200",
-      scrub: 2,
+      scrub: 1,
       pin: true,
       anticipatePin: 1,
   });
@@ -286,7 +286,7 @@ const tl6_2= gsap.timeline();
 tl6_2.to(".screen6_2",{
    ease: "none",
    duration: 1,
-   y: -548,
+   y: -560,
 });
 ScrollTrigger.create({
    animation:tl6_2,
@@ -379,6 +379,7 @@ tl9.to(".rosine",{
     ease: "none",
     duration: 3,
 });
+
 ScrollTrigger.create({
     animation: tl9,
     trigger: ".screen9",
