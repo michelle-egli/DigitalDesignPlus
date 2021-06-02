@@ -315,15 +315,15 @@ tl7.to(".Milch",{
    animation:tl7,
    trigger: ".screen7",
    start: "top" ,
-   end:"+=7000",
+   end:"+=1200",
    scrub: 2,
    toggleClass: 'active',
   //  markers: {
   //   startColor:"pink",
   //   endColor: "violett",
   // },
-   pin: true,
-   anticipatePin: 1
+  //  pin: true,
+  //  anticipatePin: 1
  });
 
 const tl7_2 = gsap.timeline();
@@ -339,27 +339,27 @@ tl7_2.to(".Milch2",{
    animation:tl7_2,
    trigger: ".screen7",
    start: "top" ,
-   end:"+=7000",
+   end:"+=1500",
    scrub: 2,
    toggleClass: 'active',
   //  markers: {
   //   startColor:"pink",
   //   endColor: "violett",
   // },
-   pin: true,
-   anticipatePin: 1
+  //  pin: true,
+  //  anticipatePin: 1
  });
 
 const tl7_3 = gsap.timeline({})
 
- tl7_3.to(".täuschungsbalken1", {x: -1000, duration: 1})
-    .to(".täuschungsbalken2", {x: 1000, duration: 1});
+ tl7_3.to(".täuschungsbalken1", {x: -1920, duration: 1})
+    .to(".täuschungsbalken2", {x: 1920, duration: 1});
 
     ScrollTrigger.create({
         animation:tl7_3,
         trigger: ".screen7",
         start: "top" ,
-        end:"+=1200",
+        end:"+=9000",
         scrub: 0.5,
         markers:true,
         pin: true,

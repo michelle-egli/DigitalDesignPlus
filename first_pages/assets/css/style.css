@@ -572,7 +572,7 @@ html *{
     width: 100vw;
     height: 5vh;
     top: -100vh;
-    left: 1000vw;
+    left: 100vw;
 }
 
 .täuschungsbalken2{
@@ -580,8 +580,8 @@ html *{
     background-color: white;
     width: 100vw;
     height: 8vh;
-    top: -92vh;
-    left: -1000vw;
+    top: -95vh;
+    left: -100vw;
 }
 
 /*--------------------------------------------screen 8: flachbrüstigkeit-----------------------------------------------*/
