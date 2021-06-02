@@ -42,7 +42,7 @@ body {
 }
 
 .rect{
-    width: 90vw;
+    width: 65vw;
     height: 8vh;
     background-color: white;
     border-radius: 0px 50px 50px 0px;
@@ -56,10 +56,10 @@ body {
 
 .sperm {
     position: relative;
-    background: rgb(255, 255, 255);
+    background: white;
     top: -8.5vh;
-    left: 65.2vw;
-    border: 5px solid rgb(255, 255, 255);
+    left: 65vw;
+    border: 5px solid white;
     width: 1vw;
     height: 2vh;
     border-top-left-radius: 50%;
@@ -72,27 +72,28 @@ body {
 
 .sperm.active{
     transform: translateY(500);
-    transform: scale(1);
+    transform: scale(2);
 }
 
 .sperm2 {
     position: relative;
-    top: -7vh;
-    left: 67.5vw;
-    border: 5px solid rgb(255, 255, 255);
-    width: 0vw;
-    height: 0vh;
+    top: -6vh;
+    left: 64.2vw;
+    border: 5px solid white;
+    background: white;
+    width: 1vw;
+    height: 2vh;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     transform: translateY(0);
     z-index: 1;
-    transform: scale(0.5);
+    transform: scale(0);
 }
 
 .sperm2.active{
     transform: translateY(500);
-    transform: scale(2);
+    transform: scale(3);
 }
 
 .Flüssigkeit{
@@ -131,9 +132,9 @@ body {
     transform: translate(0px, 0px);
 }  
 .blacksquare{
-    width: 99vw;
-    height: 89vh;
-    top: 11vh; 
+    width: 100vw;
+    height: 100vh;
+    top: 0vh; 
     position: absolute; 
     background-color: black;
     z-index: 2;
@@ -259,7 +260,7 @@ body {
 .Mensblut{
     fill: #CB0000; /*Farbe falsch?!*/
     position: relative;
-    width: 99vw;
+    width: 100vw;
     top: 40%;
     z-index: 3; 
 }
@@ -285,7 +286,7 @@ body {
 .KastenRot1{
     position: relative;
     height: 30vh;
-    width: 99vw;
+    width: 100vw;
     top: -6vh;
     background-color: #CB0000;
     transform-origin: top;
@@ -323,7 +324,7 @@ body {
 
 .Metzger{
     position: relative;
-    top: -64vh;
+    top: -58vh;
     font-family: 'Gloria Hallelujah', cursive;   
     font-weight: 100;
     text-align: center;
@@ -337,7 +338,7 @@ body {
     font-family: 'Gloria Hallelujah', cursive;   
     text-align: center;
     font-weight: 400;
-    bottom: 5vh;
+    bottom: 2vh;
     font-size: 2em;
     color: black;
     z-index: 2;
@@ -351,9 +352,9 @@ html *{
 .KastenRot2{
     position: relative;
     height: 33%;
-    width: 99vw;
+    width: 100vw;
     background-color: #CB0000;
-    bottom: 18vh;
+    bottom: 13vh;
     transform-origin: top;
     transform: scaleY(1);
     transition: 1s;
@@ -398,7 +399,7 @@ html *{
     position: relative;
     font-family: 'Gloria Hallelujah', cursive;   
     text-align: center;
-    top: 20vh;
+    top: 21vh;
     font-weight: 400;
     font-size: 2em;
     color: white;
@@ -416,7 +417,7 @@ html *{
 
 .HodenPNG{
     height: 69vh;
-    width: 99vw;
+    width: 100vw;
     position: relative;
     background-color: white;
     top: 1vh;
@@ -495,8 +496,8 @@ html *{
 .muttermilch{
     text-align: left;
     position: relative;
-    bottom: 30vh;
-    left: 8vw;
+    bottom: 25vh;
+    left: 10vw;
     font-family: 'Gloria Hallelujah', cursive;    
     font-size: 2em;
     color: white;
@@ -519,8 +520,8 @@ html *{
     position: relative;
     font-family: 'Gloria Hallelujah', cursive;    
     font-size: 2em;
-    top: 10vh;
-    right: 12vw;
+    top: 5vh;
+    right: 5vw;
     color: white;
     z-index: 3;
 }
@@ -571,19 +572,19 @@ html *{
 .täuschungsbalken1{
     position: relative;
     background-color: white;
-    width: 100vw;
+    width: 150vw;
     height: 5vh;
-    top: -100vh;
+    top: -97vh;
     left: 100vw;
 }
 
 .täuschungsbalken2{
     position: relative;
     background-color: white;
-    width: 100vw;
-    height: 8vh;
+    width: 150vw;
+    height: 10vh;
     top: -95vh;
-    left: -100vw;
+    left: -150vw;
 }
 
 /*--------------------------------------------screen 8: flachbrüstigkeit-----------------------------------------------*/
@@ -628,6 +629,7 @@ html *{
     top: -40vh;
     left: 2000px;
     background-color: black;
+    border: 10px solid black;
 }
 
 .balken2{
@@ -673,6 +675,7 @@ html *{
     top: 8vh;
     left: -2000px;
     background-color: black;
+    /* border: 10px solid black; */
 }
 
 .balken7{
@@ -948,9 +951,10 @@ svg{
 
 .smile{
     position: relative;
-    max-width: 50%;
+    max-width: 20%;
     display: block;
     margin: auto;
+    top: 30vh;
     transform: rotate(0);
 }
 
@@ -961,7 +965,7 @@ svg{
 .madeby{
     position: relative;
     text-align: right;
-    top: 8vh;
+    bottom: -60vh;
     right: 1vw;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 1em;

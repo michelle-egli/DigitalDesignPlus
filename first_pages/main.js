@@ -2,35 +2,42 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.defaults({ease: "none",duration:1});
 
 
-/*-----------------------------------------------animation screen 1: penis-------------------------------------------------------------*/
-const tl1 = gsap.timeline({
-    scrollTrigger: {
-        trigger: ".rect",
-        //markers: true,
-        start: "top",
-        end: "+=1200",
-        scrub: 1,  
-    }
-})
-tl1.to(".rect", {x: -600, duration: 2});
+//bug fix horizontales scrollen
+var scrollEventHandler = function(){
+  window.scroll(0, window.pageYOffset)
+}
+window.addEventListener("scroll", scrollEventHandler, false);
 
-ScrollTrigger.create({
-    animation:tl1,
-    trigger: ".screen1",
-    start: "top",
-    end:"+=1200",
-    scrub: 2,
-    //pin: true,
-    //anticipatePin: 1,
-});
+
+/*-----------------------------------------------animation screen 1: penis-------------------------------------------------------------*/
+// const tl1 = gsap.timeline({
+//     scrollTrigger: {
+//         trigger: ".rect",
+//         //markers: true,
+//         start: "top",
+//         end: "+=1200",
+//         scrub: 1,  
+//     }
+// })
+// tl1.to(".rect", {x: -600, duration: 2});
+
+// ScrollTrigger.create({
+//     animation:tl1,
+//     trigger: ".screen1",
+//     start: "top",
+//     end:"+=1200",
+//     scrub: 2,
+//     //pin: true,
+//     //anticipatePin: 1,
+// });
 
 const tl1_2 = gsap.timeline();
 
 tl1_2.to(".sperm",{
      ease: "none",
-     duration: 3,
+     duration: 1,
      y: 500,
-     scale:1,
+     scale: 2,
     //  delay:1.2,
   });
   
@@ -54,7 +61,7 @@ tl1_2.to(".sperm",{
 tl1_3.to(".sperm2",{
      ease: "none",
      duration: 1,
-     scale:2,
+     scale: 3,
      y: 500,
     //  delay:1,
   });
@@ -63,7 +70,7 @@ tl1_3.to(".sperm2",{
     animation:tl1_3,
     trigger: ".screen1",
     start: "top" ,
-    end:"+=1800",
+    end:"+=1700",
     scrub: 2,
     toggleClass: 'active',
     // markers: {
