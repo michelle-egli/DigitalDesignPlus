@@ -7,8 +7,8 @@ const tl1 = gsap.timeline({
     scrollTrigger: {
         trigger: ".rect",
         //markers: true,
-        start: "top 70%",
-        end: "top 35%",
+        start: "top",
+        end: "+=1200",
         scrub: 1,  
     }
 })
@@ -17,7 +17,7 @@ tl1.to(".rect", {x: -600, duration: 2});
 ScrollTrigger.create({
     animation:tl1,
     trigger: ".screen1",
-    start: "top top",
+    start: "top",
     end:"+=1200",
     scrub: 2,
     //pin: true,
@@ -428,6 +428,18 @@ tl10.to(".titelScreen10",{
    pin: true,
    anticipatePin: 1,
  });
+
+//  gsap.to("body", {
+//   scrollTrigger: {
+//       trigger: ".screen10",
+//       start: 'top',
+//       end: "+=1200",
+//       toggleClass: 'overflow',
+//       scrub: true,
+//       end: '+=500',
+//       markers: true
+//   }
+// });
 
 /*-----------------------------------------------animation screen 11: buch titel-------------------------------------------------------------*/
 const tl11 = gsap.timeline({})

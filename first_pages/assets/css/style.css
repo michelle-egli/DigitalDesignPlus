@@ -6,10 +6,12 @@ body {
     padding: 0;
     background-color: black;
   }
-  
+/* .overflow{
+    overflow: hidden;
+} */
 @font-face{
     font-family: "impact";
-    src: url(.../fonts/impact.ttf);
+    src: url(../../fonts/impact.ttf);
     font-style: normal;
     font-weight: 100;
 }
@@ -29,7 +31,7 @@ body {
 
 .typo{
     color: white;
-    font-size: 180px;
+    font-size:11em;
     text-align: left;
     font-family: impact;
     padding-left: 3%;
@@ -40,8 +42,8 @@ body {
 }
 
 .rect{
-    width: 1630px;
-    height: 80px;
+    width: 90vw;
+    height: 8vh;
     background-color: white;
     border-radius: 0px 50px 50px 0px;
     color: black;
@@ -95,7 +97,7 @@ body {
 
 .Flüssigkeit{
     position: relative;
-    width: 105vw;
+    width: 100vw;
     height: 100vh;
     bottom: -20vw;
     transform: translateY(0);
@@ -239,7 +241,7 @@ body {
     transform: rotate(-30deg);
     position: relative;
     top: -5vh;
-    left: 62.1vw;
+    left:59.7vw;
     border: 5px solid #CB0000;
     width: 0vw;
     height: 0vh;
@@ -524,11 +526,11 @@ html *{
 }
 
 .Milchoben{
-    width: 117vw;
-    height: 8vh;
+    width: 100vw;
+    height: 7vh;
     position: relative;
-    top: -202vh;
-    left: -2vw;
+    top: -181vh;
+    left: -1vw;
     z-index: 2;
 }
 .Milch{
@@ -700,7 +702,7 @@ html *{
 
 .vorhaut{
     position: relative;
-    top: 0vh;
+    top: -31vh;
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 2.5em;
@@ -728,7 +730,7 @@ html *{
 }
 .dieter{
     position: relative;
-    top: 1vh;
+    top: -5vh;
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 2.5em;
