@@ -566,6 +566,24 @@ html *{
     opacity: 0;
 }
 
+.täuschungsbalken1{
+    position: relative;
+    background-color: white;
+    width: 100vw;
+    height: 5vh;
+    top: -100vh;
+    left: 2000px;
+}
+
+.täuschungsbalken2{
+    position: relative;
+    background-color: white;
+    width: 100vw;
+    height: 8vh;
+    top: -92vh;
+    left: -2000px;
+}
+
 /*--------------------------------------------screen 8: flachbrüstigkeit-----------------------------------------------*/
 .screen8{
     background-color: white;

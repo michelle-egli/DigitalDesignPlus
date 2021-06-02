@@ -334,6 +334,7 @@ tl7_2.to(".Milch2",{
    ease: "none",
     duration: 1,
  });
+
  ScrollTrigger.create({
    animation:tl7_2,
    trigger: ".screen7",
@@ -348,6 +349,22 @@ tl7_2.to(".Milch2",{
    pin: true,
    anticipatePin: 1
  });
+
+ const tl7_3 = gsap.timeline({})
+
+ tl7_3.to(".täuschungsbalken1", {x: -2000, duration: 1})
+    .to(".täuschungsbalken2", {x: 2000, duration: 1});
+
+    ScrollTrigger.create({
+        animation:tl7_3,
+        trigger: ".screen7",
+        start: "top" ,
+        end:"+=1200",
+        scrub: 0.5,
+        markers:true,
+        pin: true,
+        anticipatePin: 1
+      });
 
 /*-----------------------------------------------animation screen 8: flachbrüstigkeit-------------------------------------------------------------*/
 const tl8 = gsap.timeline({})
