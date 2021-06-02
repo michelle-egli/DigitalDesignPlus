@@ -572,7 +572,7 @@ html *{
     width: 100vw;
     height: 5vh;
     top: -100vh;
-    left: 2000px;
+    left: 1000vw;
 }
 
 .täuschungsbalken2{
@@ -581,7 +581,7 @@ html *{
     width: 100vw;
     height: 8vh;
     top: -92vh;
-    left: -2000px;
+    left: -1000vw;
 }
 
 /*--------------------------------------------screen 8: flachbrüstigkeit-----------------------------------------------*/
@@ -700,12 +700,12 @@ html *{
 
 .vorhaut{
     position: relative;
-    top: 0;
+    top: 0vh;
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 2.5em;
     color: white;
-    z-index: 2;
+    z-index: 1;
 }
 .rosinengesicht{
     position: relative;
@@ -714,16 +714,26 @@ html *{
     font-family: impact;
     font-size: 11em;
     color: white;
+    opacity:0;
+    z-index: 3;
+}
+.rosinengesicht_visable{
+    position: relative;
+    top: 8vh;
+    text-align: center;
+    font-family: impact;
+    font-size: 11em;
+    color: white;
     z-index: 2;
 }
 .dieter{
     position: relative;
-    top: 22vh;
+    top: 1vh;
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 2.5em;
     color: white;
-    z-index: 2;
+    z-index: 1;
 }
 
 #hide9{
@@ -741,7 +751,7 @@ html *{
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 1;
+    z-index: 2;
 }
 
 .rosine {
