@@ -1,0 +1,973 @@
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+/* .overflow{
+    overflow: hidden;
+} */
+@font-face{
+    font-family: "impact";
+    src: url(../../fonts/impact.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+/*  fonts: 
+        font-family: impact;
+        font-family: 'Gloria Hallelujah', cursive;   
+        font-family: 'Great Vibes', cursive;
+        */    
+
+/*--------------------------------------------screen 1: Penis-----------------------------------------------*/
+.screen1{
+    height: 100vh;
+    background-color: black;
+    z-index: 1;
+}
+
+.typo{
+    color: white;
+    font-size:11em;
+    text-align: left;
+    font-family: impact;
+    padding-left: 3%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    position: relative;
+    z-index: 2;
+}
+
+.rect{
+    width: 65vw;
+    height: 8vh;
+    background-color: white;
+    border-radius: 0px 50px 50px 0px;
+    color: black;
+    font-size: 50px;
+    text-align: end;
+    padding: 0.5%;
+    font-family: 'Gloria Hallelujah', cursive;
+    z-index: 2;
+}
+
+.sperm {
+    position: relative;
+    background: white;
+    top: -8.5vh;
+    left: 65vw;
+    border: 5px solid white;
+    width: 1vw;
+    height: 2vh;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: translateY(0); 
+    transform: scale(0);
+    z-index: 1;
+}
+
+.sperm.active{
+    transform: translateY(500);
+    transform: scale(2);
+}
+
+.sperm2 {
+    position: relative;
+    top: -6vh;
+    left: 64.2vw;
+    border: 5px solid white;
+    background: white;
+    width: 1vw;
+    height: 2vh;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: translateY(0);
+    z-index: 1;
+    transform: scale(0);
+}
+
+.sperm2.active{
+    transform: translateY(500);
+    transform: scale(3);
+}
+
+.Flüssigkeit{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    bottom: -20vw;
+    transform: translateY(0);
+}
+
+.Flüssigkeit.active{
+    transform: translateY(-1000);
+}
+/*--------------------------------------------screen 2: big fat fuck-----------------------------------------------*/
+.screen2{
+    background-color: white;
+    height: 100vh;
+}
+
+.titel{
+    transform: translate(-2000px,0px);
+}
+
+.titel.active{
+    transform: translate(0px,0px);
+}
+
+/*.titel.active2{
+    transform: translate(2000px,0px);
+} */
+
+.blacksquare{
+    transform: translate(-10000px, 0px);
+}
+.blacksquare.active{
+    transform: translate(0px, 0px);
+}  
+.blacksquare{
+    width: 100vw;
+    height: 100vh;
+    top: 0vh; 
+    position: absolute; 
+    background-color: black;
+    z-index: 2;
+}  
+
+.opel{
+    position: relative;
+    left: -81vw;
+    top: 10vh;
+    text-align: right; 
+    font-family: 'Gloria Hallelujah', cursive;    
+    font-size: 1.7em;
+    color: #CB0000;
+    z-index: 1;
+}
+.ha{
+    position: relative;
+    left: -12vw;
+    top: -36vh;
+    text-align: center;
+    font-family: impact;
+    font-size: 28em;
+    color:#CB0000;
+    z-index: 1;
+}
+.big{
+    position: relative;
+    bottom: 90vh;
+    left: 58vw;
+    font-family: impact;
+    font-size: 28em;
+    color: black;
+    z-index: 1;
+}
+.fat_fuck{
+    position: relative;
+    left: 5vw;
+    top: -104vh;
+    font-family: impact;
+    font-size: 28em;
+    color: black; 
+    z-index: 1;
+}
+
+#hide2{
+    opacity: 1;
+    transition: 0.3 all ease-in;
+} 
+
+#hide2>div{
+    opacity: 0;
+}
+
+/*--------------------------------------------screen 3: menstrutation-----------------------------------------------*/
+.screen3{
+    background-color: black;
+    height: 100vh;
+}
+.TextMens{
+    position: relative;
+    top: 27vh;
+    z-index: 1;
+}
+.politik{
+    position: relative;
+    top: -8vh;
+    left: 24vw;
+    font-family: 'Gloria Hallelujah', cursive;    
+    font-size: 2em;
+    color: white;
+    z-index: 1;
+}
+
+.menstrutation{
+    position: relative;
+    left: 45vw;
+    top: 26.5vh;
+    font-family: 'Great Vibes', cursive; 
+    font-size: 4.5em;
+    color: #CB0000;
+    z-index: 2;
+}
+
+.bisschen{
+    position: relative;
+    top: -14vh;
+    left: 65vw;
+    font-family: 'Gloria Hallelujah', cursive;    
+    font-size: 2em;
+    color: white;
+    z-index: 1;
+}
+
+.zukunft{
+    position: relative;
+    text-align: center;
+    top: -15vh;
+    font-family: 'Gloria Hallelujah', cursive;    
+    font-size: 2em;
+    color: white;
+    z-index: 1;
+}
+
+.tear {
+    transform: rotate(-30deg);
+    position: relative;
+    top: -5.2vh;
+    left: 60.3vw;
+    border: 5px solid #CB0000;
+    width: 0vw;
+    height: 0vh;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: 3;
+}
+
+.tear.active{
+    transform: translateY(2000);
+    transform: scale(0.3);
+}
+
+.Mensblut{
+    fill: #CB0000; /*Farbe falsch?!*/
+    position: relative;
+    width: 100vw;
+    top: 40%;
+    z-index: 3; 
+}
+
+.Mensblut.active{
+    transform: translateY(1);
+}
+
+#hide3{
+    opacity: 1;
+    transition: 0.3 all ease-in;
+} 
+
+#hide3>div{
+    opacity: 0;
+}
+/*--------------------------------------------screen 4: veganer-----------------------------------------------------*/
+.screen4{
+    background-color: black;
+    height: 100vh;
+} 
+
+.KastenRot1{
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    top: -6vh;
+    background-color: #cb1617;
+    transform-origin: top;
+    transform: scaleY(1);
+    transition: 1s;
+    transition-delay: 0s;
+}   
+
+
+.eingefleischt{
+    font-family: impact;
+    font-weight: 100;
+    font-size: 6em;
+    text-align: center;
+    color: white;
+}   
+
+/* ____28.05_____ */
+.eingefleischt.active{
+    opacity: 0;
+}
+
+.Veganer{
+    color: #cb1617;
+}
+
+#hide4{
+    opacity: 1;
+    transition: 0.3 all ease-in;
+} 
+
+#hide4>div{
+    opacity: 0;
+}
+
+.Metzger{
+    position: relative;
+    top: -58vh;
+    font-family: 'Gloria Hallelujah', cursive;   
+    font-weight: 100;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    z-index: 2;
+}
+
+.vorbeischauen{
+    position: relative;
+    font-family: 'Gloria Hallelujah', cursive;   
+    text-align: center;
+    font-weight: 400;
+    bottom: 2vh;
+    font-size: 2em;
+    color: black;
+    z-index: 2;
+}
+
+html *{
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+.KastenRot2{
+    position: relative;
+    height: 33%;
+    width: 100vw;
+    background-color: #cb1617;
+    bottom: 13vh;
+    transform-origin: top;
+    transform: scaleY(1);
+    transition: 1s;
+    transition-delay: 0s;
+}
+
+
+/*--------------------------------------------screen 5: hoden-------------------------------------------------------*/
+.screen5{
+    background-color: black;
+    height: 100vh;
+}
+  
+.Nation{
+    position: relative;
+    font-family: impact;
+    font-weight: 100;
+    font-size: 8em;
+    text-align: center;
+    padding-top: 22vh;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    transform: scale(0);
+}
+
+.Nation.active{
+    transform: scale(2);
+}
+
+.Roger{
+    position: relative;
+    font-family: 'Gloria Hallelujah', cursive;   
+    top: -24vw;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2em;
+    color: white;
+    z-index: 2;
+}
+    
+.Stelle{
+    position: relative;
+    font-family: 'Gloria Hallelujah', cursive;   
+    text-align: center;
+    top: 21vh;
+    font-weight: 400;
+    font-size: 2em;
+    color: white;
+    z-index: 2;
+}
+    
+#hide5{
+    opacity: 1;
+    transition: 0.3 all ease-in;
+} 
+    
+#hide5>div{
+    opacity: 0;
+}
+
+.HodenPNG{
+    height: 69vh;
+    width: 100vw;
+    position: relative;
+    background-color: white;
+    top: 1vh;
+}
+
+/*--------------------------------------------screen 6: mannequin---------------------------------------------------*/
+.screen6{
+    background-color: white;
+    height: 100vh;
+}
+
+.Hungerhaken{
+    font-family: 'Gloria Hallelujah', cursive;   
+    position: relative;
+    font-size: 2em;
+    text-align: center;
+    color: #CB0000;
+    top: -31vh;
+}
+    
+.Mannequin{
+    font-family: impact;
+    font-weight: 400;
+    font-size: 8em;
+    position: relative;
+    text-align: center;
+    top: 29vh;
+    color: #CB0000;
+    z-index:2;
+}
+    
+.zynisch{
+    font-family: 'Gloria Hallelujah', cursive;   
+    position: relative;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    top: 13vh;
+    z-index: 2;
+}
+    
+.Sexappeal{
+    color:white;
+}
+    
+.screen6_2{
+    position: relative;
+    height: 55vh;
+    top: -12vh;
+    background-color: #CB0000;
+    z-index: 1;
+    transform: scaleY(0);
+}
+
+.screen6_2.active{
+    transform: scaleY(2);
+}
+.screen6_2.active2{
+    transform: translateY(-110);
+}
+
+#hide6{
+    opacity: 1;
+    transition: 0.3 all ease-in;
+} 
+
+#hide6>div{
+    opacity: 0;
+}
+
+/*--------------------------------------------screen 7: nippelsaft--------------------------------------------------*/
+.screen7{
+    background-color: black;
+    height: 100vh;
+}
+.muttermilch{
+    text-align: left;
+    position: relative;
+    bottom: 25vh;
+    left: 5vw;
+    font-family: 'Gloria Hallelujah', cursive;    
+    font-size: 2em;
+    color: white;
+    z-index: 3;
+}
+
+.nippelsaft{
+    padding: 10%;
+    text-align: center;
+    position: relative;
+    font-family: 'Great Vibes', cursive; 
+    font-size: 9em;
+    top: 30vh;
+    color: white;
+    z-index: 3;
+}
+
+.menschenfrauen{
+    text-align: right;
+    position: relative;
+    font-family: 'Gloria Hallelujah', cursive;    
+    font-size: 2em;
+    top: 6vh;
+    right: 5vw;
+    color: white;
+    z-index: 3;
+}
+
+.Milchoben{
+    width: 100vw;
+    height: 7vh;
+    position: relative;
+    top: -181vh;
+    left: -1vw;
+    z-index: 2;
+}
+.Milch{
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    top: -100vh;
+    left: -1vw;
+    z-index: 2;
+    transform: scale(1); 
+}
+.Milch.active{
+    transform: scale(2);
+} 
+.Milch2{
+    width: 60vw;
+    height: 50vh;
+    position: relative;
+    top: -140vh;
+    left: 47vw;
+    z-index: 2;
+    transform: scale(1); 
+    transform:translateX(0)
+}
+.Milch2.active{
+    transform: scale(1.5);
+    transform:translateX(-300)
+} 
+#hide7{
+    opacity: 1;
+    transition: 0.3 all ease-in;
+} 
+
+#hide7>div{
+    opacity: 0;
+}
+
+.täuschungsbalken1{
+    position: relative;
+    background-color: white;
+    width: 150vw;
+    height: 5vh;
+    top: -97vh;
+    left: 100vw;
+}
+
+.täuschungsbalken2{
+    position: relative;
+    background-color: white;
+    width: 150vw;
+    height: 10vh;
+    top: -95vh;
+    left: -150vw;
+}
+
+/*--------------------------------------------screen 8: flachbrüstigkeit-----------------------------------------------*/
+.screen8{
+    background-color: white;
+    height: 100vh;
+}
+
+.jugend{
+    position: relative;
+    top: 16.5vh;
+    left: 2vw;
+    text-align: left;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3.6em;
+    color: black;
+}
+
+.wartesaal{
+    position: relative;
+    top: 20vh;
+    right: 2vw;
+    text-align: right;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3.6em;
+    color: black;
+}
+
+.flachbrüstigkeit{
+    position: relative;
+    top: 32vh;
+    text-align: center;
+    font-family: impact;
+    font-size: 8em;
+    color: black;
+}
+
+.balken1{
+    position: relative;
+    height: 5vh;
+    width: 100vw;
+    top: -40vh;
+    left: 2000px;
+    background-color: black;
+    border: 10px solid black;
+}
+
+.balken2{
+    position: relative;
+    height: 10vh;
+    width: 100vw;
+    top: -39vh;
+    left: -2000px;
+    background-color: black;
+}
+
+.balken3{
+    position: relative;
+    height: 3vh;
+    width: 100vw;
+    top: -27vh;
+    left: 2000px;
+    background-color: black;
+}
+
+.balken4{
+    position: relative;
+    height: 8vh;
+    width: 100vw;
+    top: -15vh;
+    left: -2000px;
+    background-color: black;
+}
+
+.balken5{
+    position: relative;
+    height: 8vh;
+    width: 100vw;
+    top: 6vh;
+    left: 2000px;
+    background-color: black;
+}
+
+.balken6{
+    position: relative;
+    height: 4vh;
+    width: 100vw;
+    top: 8vh;
+    left: -2000px;
+    background-color: black;
+    /* border: 10px solid black; */
+}
+
+.balken7{
+    position: relative;
+    height: 20vh;
+    width: 100vw;
+    top: 12vh;
+    left: 2000px;
+    background-color: black;
+}
+
+#hide8{
+    opacity: 1;
+    transition: 0.3 all ease-in;
+} 
+
+#hide8>div{
+    opacity: 0;
+}
+
+/*--------------------------------------------screen 9: rosinengesicht-----------------------------------------------*/
+.screen9{
+    background-color: black;
+    height: 100vh;
+    position: relative;
+}
+
+.vorhaut{
+    position: relative;
+    top: -20vh;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2.5em;
+    color: white;
+    z-index: 1;
+}
+.rosinengesicht{
+    position: relative;
+    top: 40vh;
+    text-align: center;
+    font-family: impact;
+    font-size: 11em;
+    color: white;
+    opacity:0;
+    z-index: 3;
+}
+.rosinengesicht_visable{
+    position: relative;
+    top: 18vh;
+    text-align: center;
+    font-family: impact;
+    font-size: 11em;
+    color: white;
+    z-index: 2;
+}
+.dieter{
+    position: relative;
+    top: 6vh;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2.5em;
+    color: white;
+    z-index: 1;
+}
+
+#hide9{
+    opacity: 1;
+    transition: 0.3 all ease-in;
+} 
+
+#hide9>div{
+    opacity: 0;
+}
+
+.rosinen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+}
+
+.rosine {
+    transform-origin: center;
+}
+/* position der rosinen*/
+.rosine1{
+    position: relative;
+    left: 7vw;
+    top: 18vh;
+    transform-origin: bottom;
+}
+.rosine2{
+    position: relative;
+    left: 70vw;
+    top: 1vh;
+}
+.rosine3{
+    position: relative;
+    left: 10vw;
+    top: 70vh;
+}
+.rosine4{
+    position: relative;
+    left: 0vw;
+    top: 35vh;
+}
+.rosine5{
+    position: relative;
+    left: 0vw;
+    top: 50vh;
+}
+.rosine6{
+    position: relative;
+    left: 0vw;
+    top: -30vh;
+}
+.rosine7{
+    position: relative;
+    left: -10vw;
+    top: 25vh;
+}
+.rosine8{
+    position: relative;
+    left: -10vw;
+    top: -50vh;
+}
+.rosine9{
+    position: relative;
+    left: 0vw;
+    top: 15vh;
+}
+.rosine10{
+    position: relative;
+    left: 12vw;
+    top: -15vh;
+}
+.rosine11{
+    position: relative;
+    left: 14vw;
+    top: -72vh;
+}
+.rosine12{
+    position: relative;
+    left: 30vw;
+    top: -25vh;
+}
+.rosine13{
+    position: relative;
+    left: -8vw;
+    top: -85vh;
+}
+.rosine14{
+    position: relative;
+    left: 50vw;
+    top: -25vh;
+}
+.rosine15{
+    position: relative;
+    left: 20vw;
+    top: -105vh;
+}
+.rosine16{
+    position: relative;
+    left: 35vw;
+    top: -130vh;
+}
+.rosine17{
+    position: relative;
+    left: 60vw;
+    top: -60vh;
+}
+
+svg{
+    height: 25%;
+    width: 25%;
+    z-index: 1;
+    overflow: visible;
+    transition: all 1s ease-in-out;
+    transform: scale(1);
+}
+
+
+/*--------------------------------------screen 10: zeitverlust------------------------------------------*/
+.screen10{
+    background-color: #CB0000;
+    height: 100vh;
+}
+.yay{
+    position: relative;
+    text-align: left;
+    left: 10vw;
+    top: 2vh;
+    font-family: impact;
+    font-size: 20em;
+    color: white;
+}
+
+.titelScreen10{
+    transform: translate(0px,-1000px);
+}
+.titelScreen10.active{
+    transform: translate(0px,0px);
+}
+
+.action{
+    position: relative;
+    text-align: center;
+    top: -18vh;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2em;
+    color: white;
+}
+.zeitverlust{
+    position: relative;
+    text-align: right;
+    top: 39vh;
+    right: 10vw;
+    font-family: impact;
+    font-size: 12em;
+    color: white;
+}
+
+#hide10{
+    opacity: 1;
+    transition: 0.3 all ease-in;
+} 
+
+#hide10>div{
+    opacity: 0;
+}
+
+/*--------------------------------------------screen 11: buch titel-----------------------------------------------*/
+.screen11{
+    background-color: white;
+    height: 100vh;
+}
+
+.buch{
+    position: relative;
+    top: 27vh;
+    text-align: center;
+    font-family: impact;
+    font-size: 12em;
+    color: black;
+}
+
+.hazel{
+    position: relative;
+    text-align: center;
+    top: 29vh;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 5em;
+    color: black;
+}
+
+.papiertüte{
+    position: relative;
+    height: 3.5vh;
+    width: 1000vw;
+    right: 1010vw;
+    top: 11vh;
+    background-color: black;
+}
+
+
+/*--------------------------------------------screen 12: papiertüten-smile-----------------------------------------------*/
+.screen12{
+    background-color: white;
+    height: 100vh;
+}
+
+.smile{
+    position: relative;
+    max-width: 20%;
+    display: block;
+    margin: auto;
+    top: 30vh;
+    /* transform: rotate(0); */
+}
+
+/* .smile.active{
+    transform: rotate(360deg);
+} */
+
+.madeby{
+    position: relative;
+    text-align: right;
+    bottom: -60vh;
+    right: 2vw;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1em;
+    color: black;
+}
