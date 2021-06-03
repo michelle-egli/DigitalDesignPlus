@@ -466,22 +466,22 @@ ScrollTrigger.create({
   });
 
 /*-----------------------------------------------animation screen 12: papiertüten-smile-------------------------------------------------------------*/
-const tl12 = gsap.timeline({})
+// const tl12 = gsap.timeline({})
 
-tl12.to(".smile",{
-    ease: "none",
-    duration: 3,
-    rotate: 360,
- });
+// tl12.to(".smile",{
+//     ease: "none",
+//     duration: 3,
+//     rotate: 360,
+//  });
 
-ScrollTrigger.create({
-    animation:tl12,
-    trigger: ".screen12",
-    start: "top" ,
-    end:"+=1200",
-    scrub: 2,
-    toggleClass: 'active',
-    markers:true,
-    pin: true,
-    anticipatePin: 1
-  });
+// ScrollTrigger.create({
+//     animation:tl12,
+//     trigger: ".screen12",
+//     start: "top" ,
+//     end:"+=1200",
+//     scrub: 2,
+//     toggleClass: 'active',
+//     markers:true,
+//     pin: true,
+//     anticipatePin: 1
+//   });

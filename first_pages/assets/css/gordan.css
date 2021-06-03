@@ -1,0 +1,46 @@
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+/*  fonts: 
+        font-family: impact;
+        font-family: 'Gloria Hallelujah', cursive;   
+        font-family: 'Great Vibes', cursive;
+        */    
+
+/*--------------------------------------------screen 1: Penis-----------------------------------------------*/
+.screen1{
+    height: 100vh;
+    background-color: black;
+    z-index: 1;
+}
+
+/*--------------------------------------------screen 2: big fat fuck-----------------------------------------------*/
+.screen2{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.screen3{
+    background-color: blue;
+    height: 100vh;
+
+}
+.mybutton {
+    background: black;
+    color: white;
+    font-size: 3rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.overflow {
+    overflow:hidden;
+}
